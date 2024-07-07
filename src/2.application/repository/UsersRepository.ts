@@ -7,3 +7,4 @@ export default abstract class UserRepository {
   abstract findById(id: EntityId): Promise<User>;
   abstract createUser(userDTO: UserCreateDTO): Promise<EntityId>;
 }
+
